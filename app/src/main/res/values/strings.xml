@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dokumentasi Wilayah</string>
+    <string name="title">Dokumentasi Wilayah Indonesia</string>
+
+    <string name="btn_get_api_data">Get API Data</string>
+
+    <string name="txt_slct_prov">Pilih Provinsi</string>
+    <string name="txt_slct_kab">Pilih Kabupaten</string>
+    <string name="txt_slct_kec">Pilih Kecamatan</string>
+    <string name="txt_slct_kel">Pilih Kelurahan</string>
+</resources>
