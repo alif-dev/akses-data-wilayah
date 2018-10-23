@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
     private Spinner spinnerKec;
     private Spinner spinnerKel;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
