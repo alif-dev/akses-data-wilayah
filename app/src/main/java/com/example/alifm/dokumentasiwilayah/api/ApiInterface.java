@@ -17,11 +17,11 @@ public interface ApiInterface {
     Call<Data> getProvinceList(@Path("code") String code);
 
     @GET("{code}/m/wilayah/kabupaten")
-    Call<Data> getKabupatenList(@Path("code") String code, @Query("idpropinsi") int idProv);
+    Call<Data> getKabupatenList(@Path("code") String code, @Query("idpropinsi") long idProv);
 
     @GET("{code}/m/wilayah/kecamatan")
-    Call<Data> getKecamatanList(@Path("code") String code, @Query("idkabupaten") int idKab);
+    Call<Data> getKecamatanList(@Path("code") String code, @Query("idkabupaten") long idKab);
 
     @GET("{code}/m/wilayah/kelurahan")
-    Call<Data> getKelurahanList(@Path("code") String code, @Query("idkecamatan") int idKec);
+    Call<Data> getKelurahanList(@Path("code") String code, @Query("idkecamatan") long idKec);
 }

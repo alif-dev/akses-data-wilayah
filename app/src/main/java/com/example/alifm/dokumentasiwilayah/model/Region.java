@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 public class Region {
 
     @SerializedName("id")
-    public int id;
+    public long id;
 
     @SerializedName("name")
     public String name;
@@ -15,7 +15,7 @@ public class Region {
         this.name = name;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 

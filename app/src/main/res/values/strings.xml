@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Dokumentasi Wilayah</string>
+    <string name="app_name">Akses Data Wilayah</string>
     <string name="title">Dokumentasi Wilayah Indonesia</string>
 
     <string name="btn_get_api_data">Get API Data</string>
@@ -8,4 +8,7 @@
     <string name="txt_slct_kab">Pilih Kabupaten</string>
     <string name="txt_slct_kec">Pilih Kecamatan</string>
     <string name="txt_slct_kel">Pilih Kelurahan</string>
+
+    <string name="txt_please_slct">Silakan Pilih!</string>
+
 </resources>
